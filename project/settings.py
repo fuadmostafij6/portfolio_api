@@ -127,10 +127,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 CORS_ORIGIN_ALLOW_ALL = True
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
-
+STATICFILES_DIRS =[os.path.join(BASE_DIR, 'media')]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
