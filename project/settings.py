@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-v&m5njyi957q5)$0vns%ck852&=o%b)zi4iulpubv*+&#kgz3a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["dashboard.heroku.com/apps/portfolio-api-mostafij","127.0.0.1"]
 
 
 # Application definition
