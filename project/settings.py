@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-v&m5njyi957q5)$0vns%ck852&=o%b)zi4iulpubv*+&#kgz3a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["dashboard.heroku.com/apps/portfolio-api-mostafij","127.0.0.1"]
+ALLOWED_HOSTS = ['dashboard.heroku.com/apps/portfolio-api-mostafij','portfolio-api-mostafij.herokuapp.com','127.0.0.1']
 
 
 # Application definition
