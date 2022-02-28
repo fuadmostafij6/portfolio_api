@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from django.views.generic import TemplateView
 from django.views.static import serve
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('/', admin.site.urls),
     path('api/banner/',include('banner.urls')),
     path('api-auth/', include('rest_framework.urls')),
     path('api/nav/',include('nav.urls')),
