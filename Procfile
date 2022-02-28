@@ -1,1 +1,1 @@
-web: guicorn project.wsgi:application --log-file - --log-level debug
+web: guicorn project.wsgi
